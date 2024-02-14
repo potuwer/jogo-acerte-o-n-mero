@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: "Raleway", sans-serif;
+    --bg-color: #191825;
+    --primary-color: #865DFF;    
+    --seconday-color: #E384FF;
+    --details-color: #FFA3FD;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+    transition: 2s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.telaGameOver {
+    background-color: var(--details-color);
+    color: var(white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+.telaGameOver h1 {
+    font-weight: 700;
+    font-size: 5em;
+    text-shadow: 4px 3px white;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+
+.dica {
+    display: inline-block;
+    font-size: 3em;
+    color: var(--details-color);
+    padding: 10px;
+}
+
+.box {
+    border: 2px solid var(--seconday-color);
+    display: inline-block;
+    color: var(--details-color);
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--seconday-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: var(--font-family);
+    color: white;
+    box-shadow: 3px 2px var(--primary-color);
+}
+
+.lhama1 {
+    width: 40%;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    transform: scaleX(-1);
+}
+
+.lhama2 {
+    width: 40%;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+}
+
+.confe1 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.confe2 {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+.panda1 {
+    position: absolute;
+    top: 120px;
+    left: -150px;
+    aspect-ratio: 16/9;
+    width: 700px;
+    transform: scaleX(-1);
+}
+
+.panda2 {
+    position: absolute;
+    top: 120px;
+    right: -150px;
+    aspect-ratio: 16/9;
+    width: 700px;
+}
