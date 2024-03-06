@@ -1,4 +1,5 @@
 <h1>Jogo Acerte o número</h1>
+
 > É necessário estar utilizando um navegador que *NÃO* seja o Opera para utilizar(navegadores confirmados: Google; Microsoft Edge)
 
 Um jogo onde o jogador deve acertar um número que está entre 1 e 1000.
